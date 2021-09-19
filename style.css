@@ -1,0 +1,70 @@
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  width: 1200px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.inizio {
+  margin: auto;
+  width: 350px;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.titolo{
+  color: #00dd00;
+}
+
+nav{
+  margin: auto;
+  width: 1120px;
+  padding: 10px;
+  background-color:#00dd00;
+  text-align: center;
+}
+
+main {
+  color: white;
+}
+
+div h2 {
+  display: inline-block;
+}
+
+.indirizzo:before {
+  content: "\21A6"
+}
+
+.stato:before {
+  content: "Stato ricarica"
+}
+
+.ricarica1, .ricarica2, .ricarica3 {
+  padding: 10px;
+  display: inline-block;
+}
+
+.ricarica1 {
+  width: 200px;
+  background-color: orange;
+}
+
+.ricarica2 {
+  width: 300px;
+  background-color: #00dd00;
+}
+
+.ricarica3 {
+  width: 50px;
+  background-color: red;
+}
